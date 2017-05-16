@@ -12,6 +12,8 @@ $("#testimonail-carousel").owlCarousel({
     pagination : true
 });
 
+
+
 $( document ).ready(function() {
 
     scaleVideoContainer();
