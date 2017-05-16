@@ -1958,3 +1958,12 @@ i.f_mail {
 	padding-right: 10px;
 	min-height: 280px;
 }
+
+.glyphicon {
+	font-size: 150px;
+	background: linear-gradient(45deg, #cc9933 10%, #ffcc66 33%, #cccc66 66%, #cc9933 95%);
+	background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	cursor: pointer;
+}
