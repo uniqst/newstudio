@@ -66,11 +66,7 @@ label{
 	display: block;
 }
 .header {
-<<<<<<< HEAD
 	/*background: url('../images/header-bg.jpg') no-repeat 0px 0px;*/
-=======
-	background: url('http://matronet.com/site/42/files/codeus/wp-content/uploads/2014/02/slider_background_1.jpg') no-repeat 0px 0px;
->>>>>>> origin/master
 	background-size:cover;
 	-webkit-background-size:cover;
 	-moz-background-size:cover;
