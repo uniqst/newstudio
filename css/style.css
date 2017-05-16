@@ -66,11 +66,7 @@ label{
 	display: block;
 }
 .header {
-<<<<<<< HEAD
 	/*background: url('../images/header-bg.jpg') no-repeat 0px 0px;*/
-=======
-	background: url('http://matronet.com/site/42/files/codeus/wp-content/uploads/2014/02/slider_background_1.jpg') no-repeat 0px 0px;
->>>>>>> origin/master
 	background-size:cover;
 	-webkit-background-size:cover;
 	-moz-background-size:cover;
@@ -1977,11 +1973,11 @@ i.f_mail {
 	top: 0;
 	width: 100%;
 	height: 100%;
-	min-height: 1100px;
-	max-height: 1100px;
+	min-height: 750px;
+	max-height: 750px;
 	z-index: 20;
 	overflow: hidden;
-	filter: brightness(77%);
+
 }
 
 #my-video {
@@ -1994,11 +1990,11 @@ i.f_mail {
 
 .header {
 	position: relative;
-	min-height: 900px;
+	min-height: 750px;
 	height: auto;
-	max-height: 1100px;
+	max-height: 750px;
 	background-color: #cacaca;
-	line-height: 800px;
+	line-height: 750px;
 	padding: 0;
 }
 .navbar-style{
@@ -2013,4 +2009,21 @@ i.f_mail {
 	z-index: 80;
 	letter-spacing: 0px;
 	vertical-align: middle;
+}
+
+.slogan > div > .main {
+	color: white;
+	font-size: 55px;
+	font-weight: 500;
+	max-height: 110px;
+}
+
+.slogan > .second {
+	color: white;
+	font-size: 18px;
+	font-weight: 300;
+	max-height: 100px;
+
+	display: block;
+	width: 700px;
 }
