@@ -11,14 +11,19 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     <link href="css/bootstrap.css" rel='stylesheet' type='text/css'/>
     <!-- Custom Theme files -->
     <!--<style type="text/css">@import url("css/style.css");</style>-->
-    <link href="css/style.css" rel="stylesheet" type="text/css" media="all"/>
+
 
     <link href="owl-carousel/owl.carousel.css" rel="stylesheet" type="text/css" media="all"/>
     <link href="owl-carousel/owl.transitions.css" rel="stylesheet" type="text/css" media="all"/>
 
-    <script src="js/jquery.min.js"></script>
+    <link href="css/style.css" rel="stylesheet" type="text/css" media="all"/>
 
+    <script
+            src="http://code.jquery.com/jquery-3.2.1.min.js"
+            integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+            crossorigin="anonymous"></script>
 
+    <script src="js/bootstrap.min.js"></script>
     <!-- Custom Theme files -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
@@ -210,7 +215,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 
         <div style="margin:0 auto">
 
-            <p class="main">Uniq Studio Team</p>
+            <p class="main">Uniq Team Studio</p>
 
             <div style="margin: auto">
                 <div class="second">В нашей студии нет понятия «Я» - есть понятие «МЫ». Мы – это команда молодых,
@@ -277,17 +282,26 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                 <a href="#">ЗАКАЗАТЬ</a>
             </div>
             <div class="clearfix"></div>
-            <h3 style="margin-bottom: 40px;margin-top:30px;text-align: center">
-
-                Цены на разработку
 
 
-            </h3>
-
-            <h4 style="margin-bottom: 30px;padding: 0 100px">Все эти цены – ориентировочны: не факт, что ваш проект
-                будет стоить именно столько, сколько указано в каталоге. На стоимость сайта влияет много факторов. Мы
-                предлагаем консультацию по любой сложности сайтов – даже если вы у нас ничего не закажете.</h4>
         </div>
+    </div>
+
+    <div class="price-detail" style="background-color: #26a4d0">
+
+        <!--<h3 >-->
+            <!--Цены на разработку-->
+        <!--</h3>-->
+
+        <p class="price-text">Все эти цены – ориентировочны: не факт, что ваш проект
+            будет стоить именно столько, сколько указано в каталоге. На стоимость сайта влияет много факторов. Мы
+            предлагаем консультацию по любой сложности сайтов – даже если вы у нас ничего не закажете.
+        </p>
+
+        <p class="text-uppercase text-center phone-icone wow pulse" data-wow-duration="1.5s" data-wow-iteration="10"><i
+                class="fa fa-phone"></i>
+        </p>
+        <h3 class="text-light text-lite-color price-number"> +38 098 898 12 23</h3>
     </div>
 </div>
 
@@ -383,7 +397,6 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <div class="clearfix"></div>	
 			</div>
 		 -->
-
 
 
 <div class="our-team" id="team" style="margin-bottom: 50px;">
@@ -486,7 +499,6 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 </div>
 
 
-</div>
 <div class="footer">
 
     <div class="footer-top">
@@ -529,160 +541,26 @@ License URL: http://creativecommons.org/licenses/by/3.0/
         </div>
     </div>
 </div>
-<!--&lt;!&ndash; Custom Theme files &ndash;&gt;-->
-<!--=======-->
-<!--<div class="our-team" id="team" style="margin-bottom: 50px;">-->
-    <!--<div class="container">-->
-        <!--<div class="our-team-head text-center">-->
-            <!--<h3 style="text-transform: uppercase">наша команада специалистов</h3>-->
-        <!--</div>-->
-        <!--<section id="testimonials" class="team section-area lite testimonails-section text-center our-team">-->
-            <!--&lt;!&ndash; Nested Container Starts &ndash;&gt;-->
-            <!--<div class="container wow fadeInRight" data-wow-offset="">-->
 
 
-                <!--&lt;!&ndash; Testimonail Carousel Starts &ndash;&gt;-->
-                <!--<div id="testimonail-carousel" class="owl-carousel">-->
-                    <!--&lt;!&ndash; Testimonail #1 Starts &ndash;&gt;-->
-                    <!--<div class="testimonail-box" style="margin-left: 15px">-->
-                        <!--<p>-->
-                            <!--<img src="images/5.jpg" style="width: 150px; height: 150px; border-radius: 30px;"/>-->
-                        <!--</p>-->
-                        <!--<h4>Реутов Дмитрий Анатолиевич </h4>-->
-                        <!--<h5><em>Генеральный Директор</em></h5>-->
-                    <!--</div>-->
-                    <!--&lt;!&ndash; Testimonail #1 Ends &ndash;&gt;-->
+<script src="owl-carousel/owl.carousel.min.js"></script>
+<script src="js/main.js"></script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        /*
+         var defaults = {
+         containerID: 'toTop', // fading element id
+         containerHoverID: 'toTopHover', // fading element hover id
+         scrollSpeed: 1200,
+         easingType: 'linear'
+         };
+         */
 
-                    <!--&lt;!&ndash; Testimonail #1 Starts &ndash;&gt;-->
-                    <!--<div class="testimonail-box" style="margin-left: 15px">-->
+        $().UItoTop({easingType: 'easeOutQuart'});
 
-
-                        <!--<p>-->
-                            <!--<img src="images/2.jpg" style="width: 150px; height: 150px; border-radius: 30px;"/>-->
-                        <!--</p>-->
-                        <!--<h4>Черкасский Александр Владимирович</h4>-->
-                        <!--<h5><em>Исполнительный директор</em></h5>-->
-                    <!--</div>-->
-                    <!--&lt;!&ndash; Testimonail #1 Ends &ndash;&gt;-->
-
-                    <!--<div class="testimonail-box" style="margin-left: 15px">-->
-
-                        <!--<p>-->
-                            <!--<img src="images/1.jpg" style="width: 150px; height: 150px; border-radius: 30px;"/>-->
-                        <!--</p>-->
-                        <!--<h4>Середюк Андрей Николаевич </h4>-->
-                        <!--<h5><em>Руководитель разработки</em></h5>-->
-                    <!--</div>-->
-
-                    <!--&lt;!&ndash; Testimonail #1 Starts &ndash;&gt;-->
-                    <!--<div class="testimonail-box" style="margin-left: 15px">-->
-
-                        <!--<p>-->
-                            <!--<span class="glyphicon glyphicon-user" alt="Руководитель отдела продаж"-->
-                                  <!--title="Руководитель отдела продаж" class="img-center img-responsive circle"></span>-->
-                        <!--</p>-->
-                        <!--<h4>Гриценко Андрей Олегович </h4>-->
-                        <!--<h5><em>Руководитель отдела продаж</em></h5>-->
-                    <!--</div>-->
-
-                    <!--&lt;!&ndash; <div class="testimonail-box" style="margin-left: 15px">-->
-                        <!--<p>-->
-                            <!--<img src="images/3.jpg" style="width: 150px; height: 150px; border-radius: 30px;"/>-->
-                        <!--</p>-->
-                        <!--<h4>Панченко Валентина </h4>-->
-                        <!--<h5><em>Руководитель отдела копирайта</em></h5>-->
-                    <!--</div> &ndash;&gt;-->
-
-
-                    <!--<div class="testimonail-box" style="margin-left: 15px">-->
-
-                        <!--<p>-->
-                            <!--<img src="images/4.jpg" style="width: 150px; height: 150px; border-radius: 30px;"/>-->
-                        <!--</p>-->
-                        <!--<h4>Шушпанов Владислав Русланович</h4>-->
-                        <!--<h5><em>Back-end разработчик</em></h5>-->
-                    <!--</div>-->
-                    <!--<div class="testimonail-box" style="margin-left: 15px">-->
-
-                        <!--<p>-->
-                            <!--<img src="images/6.jpg" style="width: 150px; height: 150px; border-radius: 30px;"/>-->
-                        <!--</p>-->
-                        <!--<h4>Черняк Виктор Сергеевич</h4>-->
-                        <!--<h5><em>Web-designer</em></h5>-->
-                    <!--</div>-->
-
-                    <!--<div class="testimonail-box" style="margin-left: 15px">-->
-
-                        <!--<p>-->
-                            <!--<img src="images/7.jpg" style="width: 150px; height: 150px; border-radius: 30px;"/>-->
-                        <!--</p>-->
-                        <!--<h4>Слободанюк Наталия Николаевна</h4>-->
-                        <!--<h5><em>Фотограф</em></h5>-->
-                    <!--</div>-->
-
-
-                <!--</div>-->
-                <!--&lt;!&ndash; Testimonail Carousel Ends &ndash;&gt;-->
-            <!--</div>-->
-            <!--&lt;!&ndash; Nested Container Ends &ndash;&gt;-->
-        <!--</section>-->
-    <!--</div>-->
-<!--</div>-->
-<!--</div>-->
-
-
-<!--</div>-->
-<!--<div class="footer">-->
-
-    <!--<div class="footer-top">-->
-        <!--<div class="container">-->
-            <!--<div class="col-md-8 footer-grid">-->
-                <!--<h2 style="color: white;">О нас</h2>-->
-                <!--<p style="font-size: 17px; margin-top: 35px;">В нашей студии нет понятия «Я» - есть понятие «МЫ». Мы –-->
-                    <!--это команда молодых, положительных специалистов. Мы будем работать индивидуально с вами, учтем все-->
-                    <!--ваши пожелания и воплотим все ваши идеи в жизнь. Мы работаем только на качество, ведь для нас важен-->
-                    <!--каждый клиент.</p>-->
-            <!--</div>-->
-
-            <!--<div class="col-md-4 footer-grid">-->
-                <!--<h4>Контакты</h4>-->
-                <!--<ul class="address">-->
-                    <!--<li><i class="f_phone"></i></li>-->
-                    <!--<li>80988981223</li>-->
-                <!--</ul>-->
-                <!--<ul class="address">-->
-                    <!--<li><i class="f_msg"></i></li>-->
-                    <!--<li><a href="info@uniq-st.com"> info@uniq-st.com</a></li>-->
-                <!--</ul>-->
-                <!--<ul class="address" style="font-size: 30px;">-->
-                    <!--<li><a href="https://vk.com/uniqst" target="_blank"><i class="fa fa-vk fa-3" aria-hidden="true"></i></a>-->
-                    <!--</li>-->
-                    <!--<li><a href="https://www.facebook.com/groups/304644509959050/" target="_blank"><i-->
-                            <!--class="fa fa-facebook fa-2" aria-hidden="true"></i></a></li>-->
-                <!--</ul>-->
-
-            <!--</div>-->
-            <!--&gt;>>>>>> origin/master-->
-
-
-            <script src="owl-carousel/owl.carousel.min.js"></script>
-            <script src="js/main.js"></script>
-            <script type="text/javascript">
-                $(document).ready(function () {
-                    /*
-                     var defaults = {
-                     containerID: 'toTop', // fading element id
-                     containerHoverID: 'toTopHover', // fading element hover id
-                     scrollSpeed: 1200,
-                     easingType: 'linear'
-                     };
-                     */
-
-                    $().UItoTop({easingType: 'easeOutQuart'});
-
-                });
-            </script>
-            <a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+    });
+</script>
+<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
 
 </body>
 </html>
