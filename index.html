@@ -7,255 +7,287 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!DOCTYPE html>
 <html>
 <head>
-<title>Uniq Studio Team</title>
-<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
-<!-- Custom Theme files -->
-<style type="text/css">@import url("css/style.css");</style>
-<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+    <title>Uniq Studio Team</title>
+    <link href="css/bootstrap.css" rel='stylesheet' type='text/css'/>
+    <!-- Custom Theme files -->
+    <!--<style type="text/css">@import url("css/style.css");</style>-->
+    <link href="css/style.css" rel="stylesheet" type="text/css" media="all"/>
 
-<link href="owl-carousel/owl.carousel.css"  rel="stylesheet" type="text/css" media="all" />
-<link href="owl-carousel/owl.transitions.css"  rel="stylesheet" type="text/css" media="all" />
+    <link href="owl-carousel/owl.carousel.css" rel="stylesheet" type="text/css" media="all"/>
+    <link href="owl-carousel/owl.transitions.css" rel="stylesheet" type="text/css" media="all"/>
 
-	<script src="js/jquery.min.js"></script>
+    <script src="js/jquery.min.js"></script>
 
 
-<!-- Custom Theme files -->
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="keywords" content="Uniq Studio Team, Разработка сайтов, Yii2, Разработка сайов на Yii2, Landing-page, сайт-визитк, корпоративный сайт, Интернет-магазин" />
-<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
-<!--webfont-->
-<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,700,300,600,800,400' rel='stylesheet' type='text/css'>
-<link href='http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
-<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-  <!------ Light Box ------>
+    <!-- Custom Theme files -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="keywords"
+          content="Uniq Studio Team, Разработка сайтов, Yii2, Разработка сайов на Yii2, Landing-page, сайт-визитк, корпоративный сайт, Интернет-магазин"/>
+    <script type="application/x-javascript"> addEventListener("load", function () {
+        setTimeout(hideURLbar, 0);
+    }, false);
+    function hideURLbar() {
+        window.scrollTo(0, 1);
+    } </script>
+    <!--webfont-->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,700,300,600,800,400'
+          rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic'
+          rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css"
+          href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!------ Light Box ------>
     <link rel="stylesheet" href="css/swipebox.css">
-    <script src="js/jquery.swipebox.min.js"></script> 
+    <script src="js/jquery.swipebox.min.js"></script>
     <script type="text/javascript">
-		jQuery(function($) {
-			$(".swipebox").swipebox();
-		});
-	</script>
-    <!------ Eng Light Box ------>	
-	  <!-- Script for gallery Here -->
-				<script type="text/javascript" src="js/jquery.mixitup.min.js"></script>
-					<script type="text/javascript">
-					$(function () {
-						
-						var filterList = {
-						
-							init: function () {
-							
-								// MixItUp plugin
-								// http://mixitup.io
-								$('#portfoliolist').mixitup({
-									targetSelector: '.portfolio',
-									filterSelector: '.filter',
-									effects: ['fade'],
-									easing: 'snap',
-									// call the hover effect
-									onMixEnd: filterList.hoverEffect()
-								});				
-							
-							},
-							
-							hoverEffect: function () {
-							
-								// Simple parallax effect
-								$('#portfoliolist .portfolio').hover(
-									function () {
-										$(this).find('.label').stop().animate({bottom: 0}, 200, 'easeOutQuad');
-										$(this).find('img').stop().animate({top: -30}, 500, 'easeOutQuad');				
-									},
-									function () {
-										$(this).find('.label').stop().animate({bottom: -40}, 200, 'easeInQuad');
-										$(this).find('img').stop().animate({top: 0}, 300, 'easeOutQuad');								
-									}		
-								);				
-							
-							}
-				
-						};
-						
-						// Run the show!
-						filterList.init();
-						
-						
-					});	
-					</script>
-	<script type="text/javascript" src="js/move-top.js"></script>
-	<script type="text/javascript" src="js/easing.js"></script>
-	<script type="text/javascript">
-		jQuery(document).ready(function($) {
-			$(".scroll").click(function(event){		
-				event.preventDefault();
-				$('html,body').animate({scrollTop:$(this.hash).offset().top},1200);
-			});
-		});
-	</script>
-<!---css-style-switecher----->
-		<script type="text/javascript" src="js/jsapi"></script>
-		<script>
-		google.setOnLoadCallback(function()
-			{
-			    // Color changer
-			    $(".colorblue").click(function(){
-			        $("link").attr("href", "css/blue.css");
-			        return false;
-			    });
-			    
-			    $(".colorrose").click(function(){
-			        $("link").attr("href", "css/rose.css");
-			        return false;
-			    });
-			    
-			    $(".colorgreen").click(function(){
-			        $("link").attr("href", "css/green.css");
-			        return false;
-			    });
-			
-			});
-		</script>
-		<!---//End-css-style-switecher----->
+        jQuery(function ($) {
+            $(".swipebox").swipebox();
+        });
+    </script>
+    <!------ Eng Light Box ------>
+    <!-- Script for gallery Here -->
+    <script type="text/javascript" src="js/jquery.mixitup.min.js"></script>
+    <script type="text/javascript">
+        $(function () {
+
+            var filterList = {
+
+                init: function () {
+
+                    // MixItUp plugin
+                    // http://mixitup.io
+                    $('#portfoliolist').mixitup({
+                        targetSelector: '.portfolio',
+                        filterSelector: '.filter',
+                        effects: ['fade'],
+                        easing: 'snap',
+                        // call the hover effect
+                        onMixEnd: filterList.hoverEffect()
+                    });
+
+                },
+
+                hoverEffect: function () {
+
+                    // Simple parallax effect
+                    $('#portfoliolist .portfolio').hover(
+                            function () {
+                                $(this).find('.label').stop().animate({bottom: 0}, 200, 'easeOutQuad');
+                                $(this).find('img').stop().animate({top: -30}, 500, 'easeOutQuad');
+                            },
+                            function () {
+                                $(this).find('.label').stop().animate({bottom: -40}, 200, 'easeInQuad');
+                                $(this).find('img').stop().animate({top: 0}, 300, 'easeOutQuad');
+                            }
+                    );
+
+                }
+
+            };
+
+            // Run the show!
+            filterList.init();
+
+
+        });
+    </script>
+    <script type="text/javascript" src="js/move-top.js"></script>
+    <script type="text/javascript" src="js/easing.js"></script>
+    <script type="text/javascript">
+        jQuery(document).ready(function ($) {
+            $(".scroll").click(function (event) {
+                event.preventDefault();
+                $('html,body').animate({scrollTop: $(this.hash).offset().top}, 1200);
+            });
+        });
+    </script>
+    <!---css-style-switecher----->
+    <script type="text/javascript" src="js/jsapi"></script>
+    <script>
+        google.setOnLoadCallback(function () {
+            // Color changer
+            $(".colorblue").click(function () {
+                $("link").attr("href", "css/blue.css");
+                return false;
+            });
+
+            $(".colorrose").click(function () {
+                $("link").attr("href", "css/rose.css");
+                return false;
+            });
+
+            $(".colorgreen").click(function () {
+                $("link").attr("href", "css/green.css");
+                return false;
+            });
+
+        });
+    </script>
+    <!---//End-css-style-switecher----->
 </head>
 <body>
-	<!-- header-section-starts -->
-	<!--<div class="header" id="home">-->
-		<!--<div class="container">-->
-			<!--<div class="header-top">-->
-				<!--<div class="logo">-->
-					<!--<a href="index.html"><img src="images/logo 1.png" width="150px;" alt="" /></a>-->
-				<!--</div>-->
-				<!--<div class="top-menu">-->
-				<!--<span class="menu"> </span>-->
-					<!--<ul>-->
-						<!--<li><a class="active scroll" href="#home">Главная</a></li>-->
-						<!--<li><a class="scroll" href="#price">Цены</a></li>-->
-						<!--<li><a class="scroll" href="#team">Команда</a></li>-->
-					<!--</ul>-->
-				<!--</div>-->
-						<!--&lt;!&ndash; script-for-menu &ndash;&gt;-->
-						<!--<script>-->
-							<!--$("span.menu").click(function(){-->
-								<!--$(".top-menu ul").slideToggle("slow" , function(){-->
-								<!--});-->
-							<!--});-->
-						<!--</script>-->
-						<!--&lt;!&ndash; script-for-menu &ndash;&gt;-->
-				<!--<div class="clearfix"></div>-->
-			<!--</div>-->
-	<!--&lt;!&ndash;<div id="colorchanger">&ndash;&gt;-->
-			<!--&lt;!&ndash;<a class="colorbox colorblue" href="?theme=blue" title="blue Theme"> </a>&ndash;&gt;-->
-           <!--&lt;!&ndash;<a class="colorbox colorrose" href="?theme=rose" title="rose Theme"> </a>&ndash;&gt;-->
-           <!--&lt;!&ndash;<a class="colorbox colorgreen" href="?theme=green" title="green Theme"> </a>&ndash;&gt;-->
-       <!--&lt;!&ndash;</div>&ndash;&gt;-->
-			<!--<div class="header-info text-center">-->
-				<!--<h1>Uniq Studio Team</h1>-->
-				<!--<p>В нашей студии нет понятия «Я» - есть понятие «МЫ». Мы – это команда молодых, положительных специалистов. Мы будем работать индивидуально с вами, учтем все ваши пожелания и воплотим все ваши идеи в жизнь. Мы работаем только на качество, ведь для нас важен каждый клиент.</p>-->
-				<!--<a class="scroll" href="#services"><img src="images/go_down.png" alt="" /></a>-->
-			<!--</div>-->
-		<!--</div>-->
-	<!--</div>-->
+<!-- header-section-starts -->
+<!--<div class="header" id="home">-->
+<!--<div class="container">-->
+<!--<div class="header-top">-->
+<!--<div class="logo">-->
+<!--<a href="index.html"><img src="images/logo 1.png" width="150px;" alt="" /></a>-->
+<!--</div>-->
+<!--<div class="top-menu">-->
+<!--<span class="menu"> </span>-->
+<!--<ul>-->
+<!--<li><a class="active scroll" href="#home">Главная</a></li>-->
+<!--<li><a class="scroll" href="#price">Цены</a></li>-->
+<!--<li><a class="scroll" href="#team">Команда</a></li>-->
+<!--</ul>-->
+<!--</div>-->
+<!--&lt;!&ndash; script-for-menu &ndash;&gt;-->
+<!--<script>-->
+<!--$("span.menu").click(function(){-->
+<!--$(".top-menu ul").slideToggle("slow" , function(){-->
+<!--});-->
+<!--});-->
+<!--</script>-->
+<!--&lt;!&ndash; script-for-menu &ndash;&gt;-->
+<!--<div class="clearfix"></div>-->
+<!--</div>-->
+<!--&lt;!&ndash;<div id="colorchanger">&ndash;&gt;-->
+<!--&lt;!&ndash;<a class="colorbox colorblue" href="?theme=blue" title="blue Theme"> </a>&ndash;&gt;-->
+<!--&lt;!&ndash;<a class="colorbox colorrose" href="?theme=rose" title="rose Theme"> </a>&ndash;&gt;-->
+<!--&lt;!&ndash;<a class="colorbox colorgreen" href="?theme=green" title="green Theme"> </a>&ndash;&gt;-->
+<!--&lt;!&ndash;</div>&ndash;&gt;-->
+<!--<div class="header-info text-center">-->
+<!--<h1>Uniq Studio Team</h1>-->
+<!--<p>В нашей студии нет понятия «Я» - есть понятие «МЫ». Мы – это команда молодых, положительных специалистов. Мы будем работать индивидуально с вами, учтем все ваши пожелания и воплотим все ваши идеи в жизнь. Мы работаем только на качество, ведь для нас важен каждый клиент.</p>-->
+<!--<a class="scroll" href="#services"><img src="images/go_down.png" alt="" /></a>-->
+<!--</div>-->
+<!--</div>-->
+<!--</div>-->
 
-	<div class="header">
+<div class="header">
 
-		<nav class="navbar navbar-default navbar-style" role="navigation">
-			<div class="container">
-				<!-- Brand and toggle get grouped for better mobile display -->
-				<div class="navbar-header">
-					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-						<span class="sr-only">Toggle navigation</span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-					</button><img style="height: 40px;float: left; vertical-align: middle;margin-right: 9px;margin-top: 4px" src="images/">
-					<a class="navbar-brand" href="index.html">Uniq st</a>
-				</div>
+    <nav class="navbar navbar-default navbar-style" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse"
+                        data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html"><img
+                        style="height: 45px; vertical-align: top;margin-right: 9px;" src="images/Logo%201.png"></a>
+            </div>
 
-				<!-- Collect the nav links, forms, and other content for toggling -->
-				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-					<ul class="nav navbar-nav navbar-right">
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
 
-						<li><a class="active scroll" href="#home">Главная</a></li>
-						<li><a class="scroll" href="#about">О нас</a></li>
-						<li><a class="scroll" href="#services">Сервисы</a></li>
-						<li><a class="scroll" href="#portfolio">Портфолио</a></li>
-						<li><a class="scroll" href="#contact">Контакты</a></li>
+                    <li><a class="active scroll" href="#home">Главная</a></li>
+                    <li><a class="scroll" href="#about">О нас</a></li>
+                    <li><a class="scroll" href="#services">Сервисы</a></li>
+                    <li><a class="scroll" href="#portfolio">Портфолио</a></li>
+                    <li><a class="scroll" href="#contact">Контакты</a></li>
 
-					</ul>
-				</div><!-- /.navbar-collapse -->
-			</div><!-- /.container-fluid -->
-		</nav>
+                </ul>
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </nav>
 
-		<div class="main-slogan">
-			<div class="video-background">
-				<video id="my-video" class="video" autoplay="autoplay" loop="loop" poster="Save_As/Save_As.jpg">
-					<source src="Save_As/Save_As.mp4" type="video/mp4">
-					<source src="Save_As/Save_As.webm" type="video/webm">
-				</video>
-			</div>
-			<!--<span class="glyphicon glyphicon-menu-down"></span> -->
-		</div>
-		<div class="slogan">
-			<div><p class="main"><img src="imgs/Cupcake.svg" style="height: 70px;margin-right: 10px">DessertMe</p></div>
-			<p class="second">Order a dessert</p>
+    <div class="main-slogan">
+        <div class="video-background">
+            <video id="my-video" class="video" autoplay="autoplay" loop="loop" poster="Save_As/Spacious.jpg">
+                <source src="Save_As/Spacious.mp4" type="video/mp4">
+                <source src="Save_As/Spacious.webm" type="video/webm">
+            </video>
+        </div>
+        <!--<span class="glyphicon glyphicon-menu-down"></span> -->
+    </div>
+    <div class="slogan">
 
-		</div>
-	</div>
+        <div style="margin:0 auto">
+
+            <p class="main">Uniq Studio Team</p>
+
+            <div style="margin: auto">
+                <div class="second">В нашей студии нет понятия «Я» - есть понятие «МЫ». Мы – это команда молодых, положительных
+                    специалистов. Мы будем работать индивидуально с вами, учтем все ваши пожелания и воплотим все ваши идеи в
+                    жизнь. Мы работаем только на качество, ведь для нас важен каждый клиент.</div>
+            </div>
+
+        </div>
+
+
+
+    </div>
+
+</div>
 
 <div class="pricing-section" id="price">
-				<div class="container">
-					<div class="pricing-section-head text-center">
-						<h3 >Цены</h3>
+    <div class="container">
+        <div class="pricing-section-head text-center">
+            <h3>Цены</h3>
 
 
-					</div>
-					<div class="pricing-section-grids row">
-						<div class="col-md-3 pricing-section-grid text-center">
-							<div class="price">
-								<h5>от 300$</h5>
-							</div>
-							<h4 class="change">LANDING-PAGE</h4>
-							<p>Landing page – это страничка, на которой эффектно и ярко описывается ваш товар или услуга. Цель - побудить посетителя все же заказать ваш товар или услугу. Landing page – это мощный инструмент продаж.</p>
-							<a href="#">ЗАКАЗАТЬ</a>
-						</div>
-						<div class="col-md-3 pricing-section-grid text-center">
-							<div class="price">
-								<h5>от 350$</h5>
-							</div>
-							<h4 class="change">САЙТ-ВИЗИТКА</h4>
-							<p>Сайт-визитка - сайт, состойщий из нескольких веб-страниц, содержащий основную информацию об организации, товарах, компании и т. д.</p>
-							<a href="#">ЗАКАЗАТЬ</a>
-						</div>
-						<div class="col-md-3 pricing-section-grid text-center">
-							<div class="price">
-								<h5>от 450$</h5>
-							</div>
-							<h4 class="change">КОРПОРАТИВНЫЙ САЙТ</h4>
-							<p>Корпоративный сайт – это сайт, на котором представлена полная информация о фирме, ее продукции, ее достижениях. Обычно такие сайты имеют два раздела: общий (для всех посетителей Интернета) и закрытый (для сотрудников фирмы – со служебной информацией).</p>
-							<a href="#">ЗАКАЗАТЬ</a>
-						</div>
-						<div class="col-md-3 pricing-section-grid text-center">
-							<div class="price">
-								<h5>от 600$</h5>
-							</div>
-							<h4 class="change">ИНТЕРНЕТ МАГАЗИН</h4>
-							<p>Интернет-магазин – это сайт, где просто и визуально понятно представлены ваши товары. Посетители здесь могут ознакомиться с полным перечнем вашей продукции. Все разделы. Категории и наименования товаров «по полочкам» представлены на сайте, для всеобщего обозрения. Здесь они также смогут заказать эти товары.</p>
-							<a href="#">ЗАКАЗАТЬ</a>
-						</div>
-						<div class="clearfix"></div>
-						<h3 style="margin-bottom: 40px;margin-top:30px;text-align: center">
+        </div>
+        <div class="pricing-section-grids row">
+            <div class="col-md-3 pricing-section-grid text-center">
+                <div class="price">
+                    <h5>от 300$</h5>
+                </div>
+                <h4 class="change">LANDING-PAGE</h4>
+                <p>Landing page – это страничка, на которой эффектно и ярко описывается ваш товар или услуга. Цель -
+                    побудить посетителя все же заказать ваш товар или услугу. Landing page – это мощный инструмент
+                    продаж.</p>
+                <a href="#">ЗАКАЗАТЬ</a>
+            </div>
+            <div class="col-md-3 pricing-section-grid text-center">
+                <div class="price">
+                    <h5>от 350$</h5>
+                </div>
+                <h4 class="change">САЙТ-ВИЗИТКА</h4>
+                <p>Сайт-визитка - сайт, состойщий из нескольких веб-страниц, содержащий основную информацию об
+                    организации, товарах, компании и т. д.</p>
+                <a href="#">ЗАКАЗАТЬ</a>
+            </div>
+            <div class="col-md-3 pricing-section-grid text-center">
+                <div class="price">
+                    <h5>от 450$</h5>
+                </div>
+                <h4 class="change">КОРПОРАТИВНЫЙ САЙТ</h4>
+                <p>Корпоративный сайт – это сайт, на котором представлена полная информация о фирме, ее продукции, ее
+                    достижениях. Обычно такие сайты имеют два раздела: общий (для всех посетителей Интернета) и закрытый
+                    (для сотрудников фирмы – со служебной информацией).</p>
+                <a href="#">ЗАКАЗАТЬ</a>
+            </div>
+            <div class="col-md-3 pricing-section-grid text-center">
+                <div class="price">
+                    <h5>от 600$</h5>
+                </div>
+                <h4 class="change">ИНТЕРНЕТ МАГАЗИН</h4>
+                <p>Интернет-магазин – это сайт, где просто и визуально понятно представлены ваши товары. Посетители
+                    здесь могут ознакомиться с полным перечнем вашей продукции. Все разделы. Категории и наименования
+                    товаров «по полочкам» представлены на сайте, для всеобщего обозрения. Здесь они также смогут
+                    заказать эти товары.</p>
+                <a href="#">ЗАКАЗАТЬ</a>
+            </div>
+            <div class="clearfix"></div>
+            <h3 style="margin-bottom: 40px;margin-top:30px;text-align: center">
 
-							Цены на разработку
+                Цены на разработку
 
 
+            </h3>
 
-						</h3>
-
-						<h4 style="margin-bottom: 30px;padding: 0 100px">Все эти цены – ориентировочны: не факт, что ваш проект будет стоить именно столько, сколько указано в каталоге. На стоимость сайта влияет много факторов. Мы предлагаем консультацию по любой сложности сайтов – даже если вы у нас ничего не закажете.</h4>
-					</div>
-				</div>
-			</div>
+            <h4 style="margin-bottom: 30px;padding: 0 100px">Все эти цены – ориентировочны: не факт, что ваш проект
+                будет стоить именно столько, сколько указано в каталоге. На стоимость сайта влияет много факторов. Мы
+                предлагаем консультацию по любой сложности сайтов – даже если вы у нас ничего не закажете.</h4>
+        </div>
+    </div>
+</div>
 
 
 <!-- 		<div class="projects-section" id="portfolio">
@@ -349,168 +381,170 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <div class="clearfix"></div>	
 			</div>
 		 -->
-				<div class="our-team" id="team" style="margin-bottom: 50px;">
-					<div class="container">
-						<div class="our-team-head text-center">
-							<h3 style="text-transform: uppercase">наша команада специалистов</h3>
-						</div>
-						<section id="testimonials" class="team section-area lite testimonails-section text-center our-team">
-							<!-- Nested Container Starts -->
-							<div class="container wow fadeInRight" data-wow-offset="">
+<div class="our-team" id="team" style="margin-bottom: 50px;">
+    <div class="container">
+        <div class="our-team-head text-center">
+            <h3 style="text-transform: uppercase">наша команада специалистов</h3>
+        </div>
+        <section id="testimonials" class="team section-area lite testimonails-section text-center our-team">
+            <!-- Nested Container Starts -->
+            <div class="container wow fadeInRight" data-wow-offset="">
 
 
+                <!-- Testimonail Carousel Starts -->
+                <div id="testimonail-carousel" class="owl-carousel">
+                    <!-- Testimonail #1 Starts -->
+                    <div class="testimonail-box" style="margin-left: 15px">
+                        <p>
+                            <img src="images/5.jpg" style="width: 150px; height: 150px; border-radius: 30px;"/>
+                        </p>
+                        <h4>Реутов Дмитрий Анатолиевич </h4>
+                        <h5><em>Генеральный Директор</em></h5>
+                    </div>
+                    <!-- Testimonail #1 Ends -->
 
-							<!-- Testimonail Carousel Starts -->
-							<div id="testimonail-carousel" class="owl-carousel">
-								<!-- Testimonail #1 Starts -->
-								<div class="testimonail-box" style="margin-left: 15px">
-									<p>
-									<img src="images/5.jpg" style="width: 150px; height: 150px; border-radius: 30px;"/>
-									</p>
-									<h4>Реутов Дмитрий Анатолиевич </h4>
-									<h5><em>Генеральный Директор</em></h5>
-								</div>
-								<!-- Testimonail #1 Ends -->
-
-								<!-- Testimonail #1 Starts -->
-								<div class="testimonail-box" style="margin-left: 15px">
-
-
-									<p>
-									<img src="images/2.jpg" style="width: 150px; height: 150px; border-radius: 30px;"/>
-									</p>
-									<h4>Черкасский Александр Владимирович</h4>
-									<h5><em>Исполнительный директор</em></h5>
-								</div>
-								<!-- Testimonail #1 Ends -->
-
-								<div class="testimonail-box" style="margin-left: 15px">
-
-									<p>
-										<img src="images/1.jpg" style="width: 150px; height: 150px; border-radius: 30px;"/>
-									</p>
-									<h4>Середюк Андрей Николаевич </h4>
-									<h5><em>Руководитель разработки</em></h5>
-								</div>
-
-								<!-- Testimonail #1 Starts -->
-								<div class="testimonail-box" style="margin-left: 15px">
-
-									<p>
-										<span class="glyphicon glyphicon-user" alt="Руководитель отдела продаж" title="Руководитель отдела продаж" class="img-center img-responsive circle"></span>
-									</p>
-									<h4>Гриценко Андрей Олегович </h4>
-									<h5><em>Руководитель отдела продаж</em></h5>
-								</div>
-
-								<!-- <div class="testimonail-box" style="margin-left: 15px">
-									<p>
-										<img src="images/3.jpg" style="width: 150px; height: 150px; border-radius: 30px;"/>
-									</p>
-									<h4>Панченко Валентина </h4>
-									<h5><em>Руководитель отдела копирайта</em></h5>
-								</div> -->
-
-							
-								
-
-								<div class="testimonail-box" style="margin-left: 15px">
-
-									<p>
-										<img src="images/4.jpg" style="width: 150px; height: 150px; border-radius: 30px;"/>
-									</p>
-									<h4>Шушпанов Владислав Русланович</h4>
-									<h5><em>Back-end разработчик</em></h5>
-								</div>
-								<div class="testimonail-box" style="margin-left: 15px">
-
-									<p>
-									<img src="images/6.jpg" style="width: 150px; height: 150px; border-radius: 30px;"/>
-									</p>
-									<h4>Черняк Виктор Сергеевич</h4>
-									<h5><em>Web-designer</em></h5>
-								</div>
-
-								<div class="testimonail-box" style="margin-left: 15px">
-
-									<p>
-										<img src="images/7.jpg" style="width: 150px; height: 150px; border-radius: 30px;"/>
-									</p>
-									<h4>Слободанюк Наталия Николаевна</h4>
-									<h5><em>Фотограф</em></h5>
-								</div>
-
-								
-							</div>
-							<!-- Testimonail Carousel Ends -->
-					</div>
-					<!-- Nested Container Ends -->
-					</section>
-					</div>
-				</div>
-			</div>
-			
-		
-
-		</div>
-		<div class="footer">
-			
-			<div class="footer-top">
-				<div class="container">
-					<div class="col-md-8 footer-grid">
-						<h2 style="color: white;">О нас</h2>
-						<p style="font-size: 17px; margin-top: 35px;">В нашей студии нет понятия «Я» - есть понятие «МЫ». Мы – это команда молодых, положительных специалистов. Мы будем работать индивидуально с вами, учтем все ваши пожелания и воплотим все ваши идеи в жизнь. Мы работаем только на качество, ведь для нас важен каждый клиент.</p>
-					</div>
-					
-					<div class="col-md-4 footer-grid">
-						<h4>Контакты</h4>
-						<ul class="address">
-							<li><i class="f_phone"></i></li>
-							<li>80988981223</li>
-						</ul>
-						<ul class="address">
-							<li><i class="f_msg"></i></li>
-							<li><a href="info@uniq-st.com"> info@uniq-st.com</a></li>
-						</ul>
-						<ul class="address" style="zoom: 3">
-							<li><a href="https://vk.com/uniqst" target="_blank"><i class="fa fa-vk fa-3" aria-hidden="true"></i></a></li>
-							<li><a href="https://www.facebook.com/groups/304644509959050/" target="_blank"><i class="fa fa-facebook fa-2" aria-hidden="true"></i></a></li>
-						</ul>
-					
-					</div>
-
-					<div class="clearfix"></div>
-				</div>	
-			</div>
-			<div class="footer-bottom">
-				<div class="container">
-					<div class="copyright text-center">
-						<p> Uniq Team Studio &copy; 2017 Все права защищены  </p>
-					</div>
-				</div>
-			</div>
-		</div>
-	<!-- Custom Theme files -->
+                    <!-- Testimonail #1 Starts -->
+                    <div class="testimonail-box" style="margin-left: 15px">
 
 
-	<script src="owl-carousel/owl.carousel.min.js"></script>
-	<script src="js/main.js"></script>
-		<script type="text/javascript">
-						$(document).ready(function() {
-							/*
-							var defaults = {
-					  			containerID: 'toTop', // fading element id
-								containerHoverID: 'toTopHover', // fading element hover id
-								scrollSpeed: 1200,
-								easingType: 'linear' 
-					 		};
-							*/
-							
-							$().UItoTop({ easingType: 'easeOutQuart' });
-							
-						});
-					</script>
-				<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+                        <p>
+                            <img src="images/2.jpg" style="width: 150px; height: 150px; border-radius: 30px;"/>
+                        </p>
+                        <h4>Черкасский Александр Владимирович</h4>
+                        <h5><em>Исполнительный директор</em></h5>
+                    </div>
+                    <!-- Testimonail #1 Ends -->
+
+                    <div class="testimonail-box" style="margin-left: 15px">
+
+                        <p>
+                            <img src="images/1.jpg" style="width: 150px; height: 150px; border-radius: 30px;"/>
+                        </p>
+                        <h4>Середюк Андрей Николаевич </h4>
+                        <h5><em>Руководитель разработки</em></h5>
+                    </div>
+
+                    <!-- Testimonail #1 Starts -->
+                    <div class="testimonail-box" style="margin-left: 15px">
+
+                        <p>
+                            <span class="glyphicon glyphicon-user" alt="Руководитель отдела продаж"
+                                  title="Руководитель отдела продаж" class="img-center img-responsive circle"></span>
+                        </p>
+                        <h4>Гриценко Андрей Олегович </h4>
+                        <h5><em>Руководитель отдела продаж</em></h5>
+                    </div>
+
+                    <!-- <div class="testimonail-box" style="margin-left: 15px">
+                        <p>
+                            <img src="images/3.jpg" style="width: 150px; height: 150px; border-radius: 30px;"/>
+                        </p>
+                        <h4>Панченко Валентина </h4>
+                        <h5><em>Руководитель отдела копирайта</em></h5>
+                    </div> -->
+
+
+                    <div class="testimonail-box" style="margin-left: 15px">
+
+                        <p>
+                            <img src="images/4.jpg" style="width: 150px; height: 150px; border-radius: 30px;"/>
+                        </p>
+                        <h4>Шушпанов Владислав Русланович</h4>
+                        <h5><em>Back-end разработчик</em></h5>
+                    </div>
+                    <div class="testimonail-box" style="margin-left: 15px">
+
+                        <p>
+                            <img src="images/6.jpg" style="width: 150px; height: 150px; border-radius: 30px;"/>
+                        </p>
+                        <h4>Черняк Виктор Сергеевич</h4>
+                        <h5><em>Web-designer</em></h5>
+                    </div>
+
+                    <div class="testimonail-box" style="margin-left: 15px">
+
+                        <p>
+                            <img src="images/7.jpg" style="width: 150px; height: 150px; border-radius: 30px;"/>
+                        </p>
+                        <h4>Слободанюк Наталия Николаевна</h4>
+                        <h5><em>Фотограф</em></h5>
+                    </div>
+
+
+                </div>
+                <!-- Testimonail Carousel Ends -->
+            </div>
+            <!-- Nested Container Ends -->
+        </section>
+    </div>
+</div>
+</div>
+
+
+</div>
+<div class="footer">
+
+    <div class="footer-top">
+        <div class="container">
+            <div class="col-md-8 footer-grid">
+                <h2 style="color: white;">О нас</h2>
+                <p style="font-size: 17px; margin-top: 35px;">В нашей студии нет понятия «Я» - есть понятие «МЫ». Мы –
+                    это команда молодых, положительных специалистов. Мы будем работать индивидуально с вами, учтем все
+                    ваши пожелания и воплотим все ваши идеи в жизнь. Мы работаем только на качество, ведь для нас важен
+                    каждый клиент.</p>
+            </div>
+
+            <div class="col-md-4 footer-grid">
+                <h4>Контакты</h4>
+                <ul class="address">
+                    <li><i class="f_phone"></i></li>
+                    <li>80988981223</li>
+                </ul>
+                <ul class="address">
+                    <li><i class="f_msg"></i></li>
+                    <li><a href="info@uniq-st.com"> info@uniq-st.com</a></li>
+                </ul>
+                <ul class="address" style="zoom: 3">
+                    <li><a href="https://vk.com/uniqst" target="_blank"><i class="fa fa-vk fa-3" aria-hidden="true"></i></a>
+                    </li>
+                    <li><a href="https://www.facebook.com/groups/304644509959050/" target="_blank"><i
+                            class="fa fa-facebook fa-2" aria-hidden="true"></i></a></li>
+                </ul>
+
+            </div>
+
+            <div class="clearfix"></div>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <div class="container">
+            <div class="copyright text-center">
+                <p> Uniq Team Studio &copy; 2017 Все права защищены </p>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Custom Theme files -->
+
+
+<script src="owl-carousel/owl.carousel.min.js"></script>
+<script src="js/main.js"></script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        /*
+         var defaults = {
+         containerID: 'toTop', // fading element id
+         containerHoverID: 'toTopHover', // fading element hover id
+         scrollSpeed: 1200,
+         easingType: 'linear'
+         };
+         */
+
+        $().UItoTop({easingType: 'easeOutQuart'});
+
+    });
+</script>
+<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
 
 </body>
 </html>
