@@ -2025,7 +2025,7 @@ i.f_mail {
 
 .slogan > div > .main {
 	color: black;
-	font-size: 63px;
+	font-size: 66px;
 	font-weight: 600;
 	max-height: 110px;
 	text-shadow: 4px 3px 0px rgba(203, 203, 203, 0.15);
@@ -2048,6 +2048,12 @@ i.f_mail {
 	text-shadow: 1px 1px 2px black;
 }
 
+.price-detail {
+
+	margin-top: 60px;
+
+}
+
 .price-detail .price-text{
 	margin-bottom: 40px;
 	line-height: 30px;
@@ -2065,6 +2071,8 @@ i.f_mail {
 	font-weight: 900;
 	color: #fff;
 	text-align: center;
+	padding-bottom: 50px;
+	margin-top: 50px;
 }
 
 /*.price-detail p{*/
@@ -2075,3 +2083,22 @@ i.f_mail {
 	/*font-size: 18px;*/
 	/*padding-bottom: 30px;*/
 /*}*/
+
+.phone-icone .fa {
+	transition: 1s;
+	height: 75px;
+	width: 75px;
+	line-height: 70px;
+	text-align: center;
+	border: 3px solid #ffffff;
+	border-radius: 100%;
+	font-size: 40px;
+	background: #ffffff;
+	color: #e94651;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+.pricing-section{
+	padding-bottom: 0;
+}
