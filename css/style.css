@@ -2028,8 +2028,7 @@ i.f_mail {
 	font-size: 63px;
 	font-weight: 600;
 	max-height: 110px;
-	text-shadow: 4px 3px 0px rgba(203, 203, 203, 0.15);    /* given two shadows */
-
+	text-shadow: 4px 3px 0px rgba(203, 203, 203, 0.15);
 }
 
 .slogan > div > p {
@@ -2051,17 +2050,28 @@ i.f_mail {
 
 .price-detail .price-text{
 	margin-bottom: 40px;
+	line-height: 30px;
+	padding: 0 20px;
 	padding-top:30px;
 	text-align: center;
 	color:white;
 	margin-top: 30px;
+	font-size: 18px;
 }
 
-.price-detail p{
-	margin-bottom: 30px;
-	padding: 0 50px;
+.price-detail .price-number{
+	font-size: 40px;
+	font-family: Source Sans Pro, sans-serif;
+	font-weight: 900;
+	color: #fff;
 	text-align: center;
-	color:white;
-	font-size: 18px;
-	padding-bottom: 30px;
 }
+
+/*.price-detail p{*/
+	/*margin-bottom: 30px;*/
+	/*padding: 0 50px;*/
+	/*text-align: center;*/
+	/*color:white;*/
+	/*font-size: 18px;*/
+	/*padding-bottom: 30px;*/
+/*}*/
