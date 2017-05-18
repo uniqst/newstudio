@@ -2036,7 +2036,7 @@ i.f_mail {
 
 .slogan > div > .main {
 	color: black;
-	font-size: 74px;
+	font-size: 70px;
 	font-weight: 600;
 	max-height: 110px;
 	text-shadow: 4px 3px 0px rgba(203, 203, 203, 0.15);
@@ -2082,8 +2082,10 @@ i.f_mail {
 	font-weight: 900;
 	color: #fff;
 	text-align: center;
-	padding-bottom: 50px;
-	margin-top: 50px;
+	padding-bottom: 20px;
+	margin-top: 20px;
+	padding-top: 5px;
+	display: inline-block;
 }
 
 /*.price-detail p{*/
@@ -2137,4 +2139,12 @@ i.f_mail {
 
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a{
 	text-align: center;
+}
+
+.services-section-head h3, .our-team-head h3, .pricing-section-head h3, .blog-section-head h3{
+	background: none;
+}
+
+.pn-1{
+	text-align: right;
 }

@@ -5,11 +5,17 @@
 
 
 $("#testimonail-carousel").owlCarousel({
-    autoPlay: false, //Set AutoPlay to 3 seconds
-    items : 3,
+    autoPlay: true, //Set AutoPlay to 3 seconds
+    items : 4,
     stopOnHover : true,
-    navigation : false, // Show next and prev buttons
+    navigation : true, // Show next and prev buttons
     pagination : true
+});
+
+$('#main-nav a').on('click', function(){
+
+
+    $('.navbar-toggle').click();
 });
 
 
@@ -76,3 +82,4 @@ function scaleBannerVideoSize(element){
 
     });
 }
+

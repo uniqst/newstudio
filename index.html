@@ -112,26 +112,26 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     </script>
     <!---css-style-switecher----->
     <script type="text/javascript" src="js/jsapi"></script>
-    <script>
-        google.setOnLoadCallback(function () {
-            // Color changer
-            $(".colorblue").click(function () {
-                $("link").attr("href", "css/blue.css");
-                return false;
-            });
+    <!--<script>-->
+    <!--google.setOnLoadCallback(function () {-->
+    <!--// Color changer-->
+    <!--$(".colorblue").click(function () {-->
+    <!--$("link").attr("href", "css/blue.css");-->
+    <!--return false;-->
+    <!--});-->
 
-            $(".colorrose").click(function () {
-                $("link").attr("href", "css/rose.css");
-                return false;
-            });
+    <!--$(".colorrose").click(function () {-->
+    <!--$("link").attr("href", "css/rose.css");-->
+    <!--return false;-->
+    <!--});-->
 
-            $(".colorgreen").click(function () {
-                $("link").attr("href", "css/green.css");
-                return false;
-            });
+    <!--$(".colorgreen").click(function () {-->
+    <!--$("link").attr("href", "css/green.css");-->
+    <!--return false;-->
+    <!--});-->
 
-        });
-    </script>
+    <!--});-->
+    <!--</script>-->
     <!---//End-css-style-switecher----->
 </head>
 <body>
@@ -176,8 +176,6 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <div class="header">
 
 
-
-
     <nav class="navbar navbar-default navbar-fixed-top navbar-style" role="navigation">
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
@@ -195,7 +193,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
+                <ul id='main-nav' class="nav navbar-nav navbar-right">
 
                     <li><a class="active scroll" href="#home">Главная</a></li>
                     <li><a class="scroll" href="#price">Цены</a></li>
@@ -333,10 +331,24 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                 предлагаем консультацию по любой сложности сайтов – даже если вы у нас ничего не закажете.
             </p>
 
-            <p class="text-uppercase text-center phone-icone "><span class="text-light text-lite-color price-number"
-                                                                     style="padding-right: 50px">(098) 898 12 23</span><i
-                    class="fa fa-phone wow pulse animated" data-wow-duration="2s" data-wow-iteration="infinite"></i>
-                <span class="text-light text-lite-color price-number" style="padding-left: 50px">(073) 898 12 23</span>
+            <div class="row">
+                <div class="col-sm-2 col-sm-push-5">
+                    <p class="text-uppercase text-center phone-icone ">
+                        <i
+                                class="fa fa-phone wow pulse animated" data-wow-duration="2s" data-wow-iteration="infinite"></i>
+                    </p>
+
+                </div>
+
+                <div class="col-sm-5 col-sm-pull-2"><span class="text-light text-lite-color price-number pn-1">(098) 898 12 23</span></div>
+
+
+                <div class="col-sm-5">
+                    <span class="text-light text-lite-color price-number pn-2">(073) 898 12 23</span>
+                </div>
+            </div>
+            <p class="text-uppercase text-center phone-icone ">
+
             </p>
             <h3 class="text-light text-lite-color price-number"></h3>
 
@@ -486,6 +498,15 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                         <h5><em>Руководитель разработки</em></h5>
                     </div>
 
+                    <div class="testimonail-box" style="margin-left: 15px">
+
+                        <p>
+                            <img src="images/4.jpg" style="width: 150px; height: 150px; border-radius: 30px;"/>
+                        </p>
+                        <h4>Шушпанов Владислав Русланович</h4>
+                        <h5><em>Back-end разработчик</em></h5>
+                    </div>
+
                     <!-- Testimonail #1 Starts -->
                     <div class="testimonail-box" style="margin-left: 15px">
 
@@ -506,14 +527,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                     </div> -->
 
 
-                    <div class="testimonail-box" style="margin-left: 15px">
 
-                        <p>
-                            <img src="images/4.jpg" style="width: 150px; height: 150px; border-radius: 30px;"/>
-                        </p>
-                        <h4>Шушпанов Владислав Русланович</h4>
-                        <h5><em>Back-end разработчик</em></h5>
-                    </div>
                     <div class="testimonail-box" style="margin-left: 15px">
 
                         <p>
