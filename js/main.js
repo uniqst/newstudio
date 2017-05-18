@@ -8,7 +8,7 @@ $("#testimonail-carousel").owlCarousel({
     autoPlay: true, //Set AutoPlay to 3 seconds
     items : 4,
     stopOnHover : true,
-    navigation : true, // Show next and prev buttons
+    navigation : false, // Show next and prev buttons
     pagination : true
 });
 
