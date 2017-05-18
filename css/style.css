@@ -23,6 +23,8 @@ body{
 	-webkit-backface-visibility: hidden;
 	-moz-backface-visibility:    hidden;
 	-ms-backface-visibility:     hidden;
+
+	padding-top: 50px;
 }
 body a{
     transition:0.5s all;
@@ -1228,7 +1230,7 @@ i.f_mail {
 		min-height: 300px;
 	}
 	.footer-grid {
-		width: 50%;
+		/*width: 50%;*/
 		float: left;
 		margin-bottom: 2em;
 	}
@@ -1784,7 +1786,7 @@ i.f_mail {
 		margin: 0 0.21em;
 	}
 	.footer-grid p {
-		height: 149px;
+		/*height: 149px;*/
 		overflow: hidden;
 	}
 	ul.address:last-child {
@@ -2013,7 +2015,7 @@ i.f_mail {
 }
 .navbar-style{
 	z-index: 90;
-	background-color: transparent;
+	background-color: #232323;
 	border:none;
 }
 
@@ -2131,4 +2133,8 @@ i.f_mail {
 
 .navbar-brand{
 	padding-top: 2px;
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a{
+	text-align: center;
 }
