@@ -1994,7 +1994,7 @@ i.f_mail {
 	min-height: 750px;
 	max-height: 750px;
 	z-index: 20;
-	/*overflow: hidden;*/
+	overflow: hidden;
 
 }
 
@@ -2149,8 +2149,11 @@ i.f_mail {
 }
 
 .pn-1{
-	text-align: right;
-}
+	 text-align: center;
+ }
+.pn-2{
+	 text-align: center;
+ }
 
 .social{
 	font-size: 20px;
