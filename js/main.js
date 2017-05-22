@@ -12,11 +12,6 @@ $("#testimonail-carousel").owlCarousel({
     pagination : true
 });
 
-$('#main-nav a').on('click', function(){
-
-
-    $('.navbar-toggle').click();
-});
 
 
 
