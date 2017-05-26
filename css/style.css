@@ -2388,3 +2388,44 @@ a[data-target="#phoneModal"]:active{
 
 }
 
+.reanimation-modal .close-modal .lr .rl {
+	height: 28px;
+	width: 2px;
+	background-color: #5c5c5c;
+	transform: rotate(90deg);
+	-ms-transform: rotate(90deg);
+	-webkit-transform: rotate(90deg);
+	z-index: 1052;
+}
+
+.reanimation-modal .close-modal .lr {
+	height: 28px;
+	width: 2px;
+	margin-left: 25px;
+	background-color: #5c5c5c;
+	transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	-webkit-transform: rotate(45deg);
+	z-index: 1051;
+}
+
+.reanimation-modal .close-modal .lr .rl {
+	height: 28px;
+	width: 2px;
+	background-color: #5c5c5c;
+	transform: rotate(90deg);
+	-ms-transform: rotate(90deg);
+	-webkit-transform: rotate(90deg);
+	z-index: 1052;
+}
+
+.reanimation-modal .close-modal {
+	position: absolute;
+	width: 45px;
+	height: 45px;
+	background-color: transparent;
+	top: 10px;
+	right: 10px;
+	cursor: pointer;
+}
+
