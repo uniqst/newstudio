@@ -2429,3 +2429,6 @@ a[data-target="#phoneModal"]:active{
 	cursor: pointer;
 }
 
+.footer-grid ul li:first-child{
+	margin-bottom: 0;
+}
